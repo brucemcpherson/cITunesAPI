@@ -151,7 +151,7 @@ var ITunesAPI = function() {
         
         var ob = JSON.parse (response.getContentText());
         
-        return{
+        return {
           response:response,
           data:ob,
           success:!ob.error,
